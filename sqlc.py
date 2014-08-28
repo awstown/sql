@@ -14,5 +14,5 @@ with sqlite3.connect("new.db") as connection:
         ('Phoenix', 'AZ', 1500000)
     ]
 
-# insert data into table
-c.executemany('INSERT INTO population VALUES(?, ?, ?)', cities)
+    # insert data into table
+    c.executemany('INSERT INTO population VALUES(?, ?, ?)', cities)
